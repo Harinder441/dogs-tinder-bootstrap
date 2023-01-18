@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&family=Ubuntu&display=swap');
+
+
+:root {
+    --black: black;
+    --pink: #EB455F;
+    --white: #fff;
+    --grey: rgb(132, 129, 129);
+    --pink2: #ef4c4c;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-align: center;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+#title>.container-fluid {
+    padding: 0 15%;
+}
+
+/* cmman to sections */
+.big-heading {
+
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+
+}
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.colored-section {
+    background-color: var(--pink);
+    color: var(--white);
+}
+
+.white-section {
+    background-color: white;
+}
+
+.pad-container {
+    padding: 8% 15%;
+
+}
+
+/* navbar style */
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.0rem;
+
+}
+
+.nav-item {
+    padding: 0 18px;
+
+}
+
+.nav-link {
+
+    font-size: 1.1rem;
+}
+
+/* navbar end */
+
+/* title start */
+
+#title {
+    padding-bottom: 6%;
+}
+
+.download-btn {
+    margin: 5% 2% 0 0;
+}
+
+.title-image {
+    width: 20rem;
+    transform: rotate(28deg);
+    position: absolute;
+}
+
+.title-left {
+    text-align: left;
+}
+
+/* <!-- Features --> */
+#features {
+
+    position: relative;
+
+
+}
+
+#features p {
+
+    font-weight: 300;
+    color: var(--grey);
+    font-size: 1.0rem;
+}
+
+
+.feature-item {
+    padding: 0 6%;
+}
+
+.feature-icon i {
+    margin: 4% 0;
+    font-size: 3.2rem;
+    color: var(--pink2);
+}
+
+.feature-icon i:hover {
+    color: var(--pink);
+}
+
+/* testimonial */
+
+#testimonials {
+    background-color: var(--pink2);
+}
+
+#testimonials h2 {
+    font-size: 2.8rem;
+
+}
+
+.testimonial-image {
+    width: 100px;
+    border-radius: 50%;
+    margin: 2%;
+}
+
+.testimonial-item {
+    padding: 2% 0;
+}
+
+/* press */
+
+#press {
+    background-color: var(--pink2);
+    padding: 0 10% 8% 10%;
+
+
+}
+
+.press-image {
+
+    width: 200px;
+    margin: 0 20px;
+
+}
+
+/* pricing */
+
+
+#pricing p {
+    font-size: 1.3rem;
+    color: var(--grey);
+}
+
+
+
+#pricing .card-body li {
+    color: var(--grey);
+}
+
+
+
+
+
+
+/* Call to Action  */
+
+
+/* <!-- Footer --> */
+
+
+/* Resposivness */
+
+@media (max-width:800px) {
+    .title-image {
+        /* display: none; */
+        padding: 5% 0;
+        position: static;
+        transform: rotate(0deg);
+
+    }
+
+    .title-left {
+        text-align: center;
+    }
+
+    #press {
+        text-align: center;
+
+
+    }
+
+    #press .press-image {
+        margin: 4% 2%;
+
+
+    }
+
+    #testimonials h2 {
+        font-size: 1.8rem;
+        font-weight: 600;
+    }
+
+    #pricing {
+        padding: 8% 10%;
+    }
+}
